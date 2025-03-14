@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/googleapis/js-genai">
-    <img alt="Google TS GenAI SDK" src="/media/robot-skateboard.png" width="308">
+    <img alt="Google TS GenAI SDK" src="/media/image-gen-0.png" width="308">
   </a>
 </p>
 
