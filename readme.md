@@ -14,9 +14,23 @@
   <a href="https://prettier.io"><img alt="Prettier Code Formatting" src="https://img.shields.io/badge/code_style-prettier-brightgreen.svg" /></a>
 </p>
 
-## About
+# Intro
 
 Testing of https://github.com/googleapis/js-genai
+
+## Prerequisites
+
+- Node.js >= 18 or equivalent env
+- Set up env vars in `.env` (`GEMINI_API_KEY`)
+- `npm i -g pnpm`
+- `npm i -g tsx`
+
+## Running tests
+
+```sh
+pnpm install
+tsx src/test-gen-0.ts
+```
 
 ## License
 
