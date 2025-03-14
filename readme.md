@@ -16,7 +16,7 @@
 
 # Intro
 
-Testing of https://github.com/googleapis/js-genai
+Testing https://github.com/googleapis/js-genai for feedback: https://github.com/googleapis/js-genai/issues/293
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ Testing of https://github.com/googleapis/js-genai
 
 ```sh
 pnpm install
-tsx src/test-gen-0.ts
+tsx src/text-gen-0.ts
 ```
 
 ## License
