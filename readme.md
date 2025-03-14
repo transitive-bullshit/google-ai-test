@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/googleapis/js-genai">
+    <img alt="Google TS GenAI SDK" src="/media/robot-skateboard.png" width="308">
+  </a>
+</p>
+
 # Google Gen AI Test <!-- omit from toc -->
 
 > Testing [Google's TS GenAI SDK](https://github.com/googleapis/js-genai).
