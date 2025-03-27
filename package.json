@@ -24,16 +24,16 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@agentic/stdlib": "^7.4.7",
-    "@google/genai": "^0.4.0",
+    "@agentic/stdlib": "^7.6.2",
+    "@google/genai": "^0.6.1",
     "dotenv": "^16.4.7",
-    "type-fest": "^4.37.0",
+    "type-fest": "^4.38.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@fisch0920/eslint-config": "^1.4.0",
     "@total-typescript/ts-reset": "^0.6.1",
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.13.14",
     "eslint": "^8.57.1",
     "npm-run-all2": "^7.0.2",
     "only-allow": "^1.2.1",
