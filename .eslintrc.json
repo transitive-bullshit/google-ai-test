@@ -1,8 +1,0 @@
-{
-  "root": true,
-  "extends": ["@fisch0920/eslint-config"],
-  "ignorePatterns": ["dist", "out"],
-  "rules": {
-    "no-process-env": "off"
-  }
-}

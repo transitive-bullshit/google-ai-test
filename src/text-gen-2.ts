@@ -6,23 +6,14 @@ async function main() {
   const genai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY })
 
   const res = await genai.models.generateContent({
-    model: 'gemini-2.0-flash-exp',
-    contents: [
-      'describe this video',
-      {
-        fileData: {
-          fileUri: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-        }
-      }
-    ],
+    model: 'gemini-2.5-pro-exp-03-25',
+    contents: 'write a short poem about a cat who loves google',
     config: {
       responseModalities: ['text']
     }
   })
 
   console.log(JSON.stringify(res, null, 2))
-  console.log()
-  console.log(res.candidates![0]!.content!.parts![0]!.text)
 }
 
 await main()

@@ -14,8 +14,10 @@ async function main() {
 
   console.log(JSON.stringify(res, null, 2))
 
-  const image = res.generatedImages![0]?.image!.imageBytes!
-  await fs.writeFile('media/image-gen-0.png', Buffer.from(image, 'base64'))
+  const image = res.generatedImages?.[0]?.image?.imageBytes
+  if (image) {
+    await fs.writeFile('media/image-gen-0.png', Buffer.from(image, 'base64'))
+  }
 }
 
 await main()
